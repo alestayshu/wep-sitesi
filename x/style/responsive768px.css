@@ -1,0 +1,99 @@
+@media only screen and (max-width:768px) {
+	.text {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        float: center;
+        height: -0px;
+        width: 300px;
+        top: calc(40% - 100px);
+        left: calc(50% - 150px);
+        font-size: 20px;
+       
+      }
+
+      .nav-text{
+        font-size: 20px;
+     
+    }
+
+    
+  h1{display: inline-block;}
+  .links{display: inline-block; margin-left: 9px; font-size: 10px;}
+
+  a{
+    padding-left: 25px;
+    display: inline-block;
+    text-decoration: none;
+    color: #ffff;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+
+
+.hakımda-baslık{
+    margin-top: 30px;
+      }
+    
+      .container{
+        margin: auto;
+          width: 250px;
+        font-size: 15px;
+          border-radius: 50px;
+          text-align: center;
+          transition: 0.5s;
+          -webkit-border-radius: 50px;
+          -moz-border-radius: 50px;
+          -ms-border-radius: 50px;
+          -o-border-radius: 50px;
+    }
+    .container img{margin-top: 50px;}
+      .container-img{
+        margin: auto;
+        display: block;
+          width: 150px;
+
+    }
+    .container-baslangıç{
+        margin-top: 50px;
+        border-bottom: 2px solid var(--beyaz);
+    }
+
+
+
+    /* Progerssbar */
+    .chart {
+        background: rgba(255, 255, 255, 0.1);
+        justify-content: flex-start;
+        border-radius: 100px;
+        align-items: center;
+        position: relative;
+        padding: 0 5px;
+        display: flex;
+        height: 30px;
+        width: 250px;
+    }
+
+    /* Progerssbar  bitiş */
+
+
+
+
+    ul{
+        display: flex;
+       justify-content: center;
+        position: relative;
+        display:flex;
+        gap: 50px;
+        margin-right: 60px;
+      }
+ 
+
+
+
+    }

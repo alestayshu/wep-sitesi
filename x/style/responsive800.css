@@ -1,0 +1,26 @@
+@media only screen and (min-width:769px) and (max-width:1200px) {
+
+
+      .nav-text{
+        font-size: 20px;
+   
+     
+    }
+
+    
+  h1{display: inline-block;}
+  .links{display: inline-block; margin-left: 15px; font-size: 10px;}
+
+  a{
+    padding-left: 25px;
+    display: inline-block;
+    text-decoration: none;
+    color: #ffff;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+}

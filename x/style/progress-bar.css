@@ -1,0 +1,118 @@
+.chart {
+    background: rgba(255, 255, 255, 0.1);
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    padding: 0 5px;
+    display: flex;
+    height: 30px;
+    width: 500px;
+}
+
+.chart span {
+    margin-left: 5px;
+    color: #fff;
+    font-weight: bolder;
+}
+
+.bar {
+    animation: load 3s normal forwards;
+    border-radius: 100px;
+    background: var(--mor);
+    height: 20px;
+    width: 0;
+}
+
+@keyframes load {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 48%;
+    }
+}
+
+.bar2 {
+    animation: load2 3s normal forwards;
+    border-radius: 100px;
+    background: var(--mor);
+    height: 20px;
+    width: 0;
+    -webkit-animation: load2 3s normal forwards;
+}
+
+@keyframes load2 {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 78%;
+    }
+}
+
+.bar3 {
+    animation: load3 3s normal forwards;
+    border-radius: 100px;
+    background: var(--mor);
+    height: 20px;
+    width: 0;
+    -webkit-animation: load3 3s normal forwards;
+}
+
+@keyframes load3 {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 90%;
+    }
+}
+
+.bar4 {
+    animation: load4 3s normal forwards;
+    border-radius: 100px;
+    background: var(--mor);
+    height: 20px;
+    width: 0;
+    -webkit-animation: load4 3s normal forwards;
+}
+
+@keyframes load4 {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 60%;
+    }
+}
+
+
+.bar5 {
+    animation: load5 3s normal forwards;
+    border-radius: 100px;
+    background: var(--mor);
+    height: 20px;
+    width: 0;
+    -webkit-animation: load5 3s normal forwards;
+}
+
+@keyframes load5 {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 20%;
+    }
+}
+
+
+.kodlar{
+    color: var(--beyaz);
+  
+}

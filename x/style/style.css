@@ -1,0 +1,204 @@
+:root {
+    --background-color: #171C26;
+    --background-color2: #353c49;
+    --mavi: #09C0FA;
+    --sarı: #FFB647;
+    --beyaz: #ffff;
+    --mor: rgb(152, 38, 245);
+    --red: #af0707;
+  
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+html{    scroll-behavior: smooth;
+}
+body {
+    padding: 0px;
+    margin: 0;
+    height: 100%;
+    background-color: var(--background-color);
+    color: var(--beyaz);
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+
+  }
+
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: var(--background-color);
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: var(--red);
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+  }
+  
+   
+  #particles-js {
+    height: 100%;
+    width: 100%;
+  }
+
+
+  .text {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: center;
+    height: 200px;
+    width: 300px;
+    top: calc(50% - 100px);
+    left: calc(50% - 150px);
+    font-size: 30px;
+  }
+   
+  .img {
+    display: inline-block;
+    height: 100px;
+    z-index: 100;
+  }
+
+
+  .nav-text{
+      font-size: 30px;
+      margin-left: 10px;
+  }
+
+  h1{display: inline-block;}
+  .links{display: inline-block; margin-left: 620px;}
+
+  a{
+      padding-left: 25px;
+      display: inline-block;
+      text-decoration: none;
+      color: #ffff;
+      transition: 0.5s;
+      -webkit-transition: 0.5s;
+      -moz-transition: 0.5s;
+      -ms-transition: 0.5s;
+      -o-transition: 0.5s;
+}
+  a:hover{
+    color: var(--red);
+    
+    }
+  .red{
+      color: var(--red);
+  }
+
+
+
+  .hakımda-baslık{
+margin-top: 30px;
+  }
+
+  .container{
+    margin: auto;
+      width: 500px;
+    
+      border-radius: 50px;
+      text-align: center;
+      transition: 0.5s;
+      -webkit-border-radius: 50px;
+      -moz-border-radius: 50px;
+      -ms-border-radius: 50px;
+      -o-border-radius: 50px;
+}
+  .container-img{
+      margin: auto;
+      display: block;
+      width: 200px;
+      border-radius: 100px;
+      -webkit-border-radius: 100px;
+      -moz-border-radius: 100px;
+      -ms-border-radius: 100px;
+      -o-border-radius: 100px;
+      border: 3px solid var(--mor);
+}
+
+.container-baslangıç{
+    margin-top: 50px;
+    border-bottom: 2px solid var(--beyaz);
+}
+
+
+
+.bilgim-text{
+    margin-top: 150px;
+    border-bottom: 1px solid var(--beyaz);
+}
+
+
+.footer{
+    margin-top: 110px;
+}
+
+
+::selection {
+    background-color: var(--background-color);
+    color: var(--mor); }
+
+
+    image.png
+
+.sosyalmedya-text{
+  
+  border-bottom: 1px solid var(--beyaz);
+}
+ul{
+  display: flex;
+ justify-content: center;
+  position: relative;
+  display:flex;
+  gap: 100px;
+  margin-right: 80px;
+}
+ul li {
+  position: relative;
+  list-style: none;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: 0.5s;
+}
+
+ul li a{
+  position: relative;
+  text-decoration: none;
+  color: var(--clr);
+  font-size: 2em;
+  transition: 0.5;
+  -webkit-transition: 0.5;
+  -moz-transition: 0.5;
+  -ms-transition: 0.5;
+  -o-transition: 0.5;
+}
+
+ul li:hover a{
+  font-size: 3em;
+  filter: drop-shadow(0 0 20px var(--clr))drop-shadow(0 0 40px var(--clr))drop-shadow(0 0 60px var(--clr));
+  -webkit-filter: drop-shadow(0 0 20px var(--clr))drop-shadow(0 0 40px var(--clr))drop-shadow(0 0 60px var(--clr));
+}
+
+.sosyal:hover{color: var(--clr);}
+.sosyalmedyacontainer{
+  margin-top: 100px;
+}
+
+
+.animation_text{
+  font-size: 15px;
+}
